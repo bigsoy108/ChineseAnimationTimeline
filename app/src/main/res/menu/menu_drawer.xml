@@ -23,54 +23,55 @@
         android:checkableBehavior="single">
 
         <item
-            android:id="@+id/nav_news"
-            android:icon="@drawable/ic_menu_news"
-            android:title="@string/menu_news" />
+            android:id="@+id/nav_timelie"
+            android:icon="@drawable/ic_menu_timeline"
+            android:title="@string/menu_timeline" />
 
         <item
-            android:id="@+id/nav_trending"
-            android:icon="@drawable/ic_menu_trending"
-            android:title="@string/menu_trending" />
+            android:id="@+id/nav_handbook"
+            android:icon="@drawable/ic_menu_handbook"
+            android:title="@string/menu_handbook" />
 
         <item
-            android:id="@+id/nav_profile"
-            android:icon="@drawable/ic_menu_person"
-            android:title="@string/menu_profile" />
+                    android:id="@+id/nav_search"
+            android:checkable="false"
+                    android:icon="@drawable/ic_menu_search"
+                    android:title="@string/menu_search" />
 
 
     </group>
 
-    <group
-        android:id="@+id/other"
-        android:checkableBehavior="single">
+<!--    <group-->
+<!--        android:id="@+id/other"-->
+<!--        android:checkableBehavior="single">-->
 
-        <item
-            android:id="@+id/nav_search"
-            android:checkable="false"
-            android:icon="@drawable/ic_menu_search"
-            android:title="@string/menu_search" />
+<!--        <item-->
+<!--            android:id="@+id/nav_search"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/ic_menu_search"-->
+<!--            android:title="@string/menu_search" />-->
 
-        <item
-            android:id="@+id/nav_notifications"
-            android:checkable="false"
-            android:icon="@drawable/ic_menu_notifications"
-            android:title="@string/menu_notifications" />
+<!--        <item-->
+<!--            android:id="@+id/nav_notifications"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/ic_menu_notifications"-->
+<!--            android:title="@string/menu_notifications" />-->
 
-        <item
-            android:id="@+id/nav_starred"
-            android:checkable="false"
-            android:icon="@drawable/ic_menu_star"
-            android:title="@string/menu_starred" />
-    </group>
+<!--        <item-->
+<!--            android:id="@+id/nav_starred"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/ic_menu_star"-->
+<!--            android:title="@string/menu_starred" />-->
+<!--    </group>-->
 
     <group
         android:id="@+id/setting"
         android:checkableBehavior="none">
-        <item
-            android:id="@+id/nav_settings"
-            android:checkable="false"
-            android:icon="@drawable/ic_menu_settings"
-            android:title="@string/menu_settings" />
+<!--        <item-->
+<!--            android:id="@+id/nav_settings"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/ic_menu_settings"-->
+<!--            android:title="@string/menu_settings" />-->
         <item
             android:id="@+id/nav_about"
             android:checkable="false"

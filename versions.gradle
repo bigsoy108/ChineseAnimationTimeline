@@ -7,7 +7,7 @@ import java.util.regex.Pattern
  **/
 ext.deps = [:]
 def versions = [:]
-versions.android_gradle_plugin = "3.6.1"
+versions.android_gradle_plugin = '4.2.1'
 versions.android_maven_gradle_plugin = "2.0"
 versions.gradle_bintray_plugin = "1.8.0"
 versions.booster = "3.1.0"
@@ -105,15 +105,15 @@ ext.deps = deps
 
 def build_versions = [:]
 build_versions.min_sdk = 19
-build_versions.target_sdk = 28
-build_versions.build_tools = "28.0.3"
+build_versions.target_sdk = 30
+build_versions.build_tools = "30.0.3"
 ext.build_versions = build_versions
 
 def app_release = [:]
-app_release.storeFile = "../keystores/android.keystore"
-app_release.storePassword = "xuexiang"
-app_release.keyAlias = "android.keystore"
-app_release.keyPassword = "xuexiang"
+app_release.storeFile = "../keystores/"
+app_release.storePassword = ""
+app_release.keyAlias = ""
+app_release.keyPassword = ""
 
 ext.app_release = app_release
 

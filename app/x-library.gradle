@@ -15,13 +15,10 @@ project.configurations.each { configuration ->
         configuration.dependencies.add(getProject().dependencies.create('com.github.xuexiangjys.XUtil:xutil-core:2.0.0'))
         //XAOP切片，版本号前带x的是支持androidx的版本
         configuration.dependencies.add(getProject().dependencies.create('com.github.xuexiangjys.XAOP:xaop-runtime:1.1.0'))
-        //XUpdate版本更新
-        configuration.dependencies.add(getProject().dependencies.create('com.github.xuexiangjys:XUpdate:2.0.8'))
-        //XHttp2
-        configuration.dependencies.add(getProject().dependencies.create('com.github.xuexiangjys:XHttp2:2.0.4'))
+
         configuration.dependencies.add(getProject().dependencies.create(deps.rxjava2))
         configuration.dependencies.add(getProject().dependencies.create(deps.rxandroid))
-        configuration.dependencies.add(getProject().dependencies.create('com.squareup.okhttp3:okhttp:3.10.0'))
+
         configuration.dependencies.add(getProject().dependencies.create(deps.gson))
         //XPage
         configuration.dependencies.add(getProject().dependencies.create('com.github.xuexiangjys.XPage:xpage-lib:3.1.1'))

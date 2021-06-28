@@ -37,7 +37,7 @@
                     android:layout_width="165dp"
                     android:layout_height="165dp"
                     android:contentDescription="Logo"
-                    app:srcCompat="@drawable/ic_logo_app" />
+                    app:srcCompat="@drawable/splash_logo" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -55,11 +55,11 @@
                     android:textColor="@color/xui_config_color_gray_3"
                     android:textSize="16sp" />
 
-                <com.xuexiang.xui.widget.grouplist.XUIGroupListView
-                    android:id="@+id/about_list"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="35dp" />
+<!--                <com.xuexiang.xui.widget.grouplist.XUIGroupListView-->
+<!--                    android:id="@+id/about_list"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="35dp" />-->
 
                 <Space
                     android:layout_width="match_parent"
